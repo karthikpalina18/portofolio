@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0B60B0;
+    color:white;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+.img{
+    margin-right: 20px;
+    align-items:end;
+}
+.img img{
+    width: 100px; /* Set width of the image */
+    height: 100px; /* Set height of the image */
+    border-radius: 50%; /* Circular frame */
+    border: 3px solid #007bff; /* Optional: Border around the image */
+    object-fit: cover;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color:#333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+/* header:hover{
+    background-color:#0B60B0;
+
+} */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #2196F3;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+section:hover {
+    padding: 60px 0;
+    background-color: #333;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill-item {
+    width: 20%;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    height: 10px;
+    margin: 10px 0;
+}
+.skill-list1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill-item1 {
+    width: 20%;
+}
+
+.skill-bar1 {
+    background-color: #ddd;
+    height: 10px;
+    margin: 10px 0;
+}
+
+
+
+.html { width: 90%; background-color: #f44336; }
+.css { width: 80%; background-color: #2196F3; }
+.javascript { width: 70%; background-color: #FFC107; }
+.python { width: 60%; background-color: #4CAF50; }
+
+
+.projects-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-item {
+    width: 30%;
+    background-color:#F0EDCF;
+    color:#000000;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.project-item:hover{
+    background-color: #40A2D8;
+    padding:40px;
+}
+.project-item a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+    background-color:black;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form input:hover, form textarea:hover {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color:#2196F3;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:antiquewhite;
+    color:#333;
+}
